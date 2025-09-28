@@ -318,6 +318,7 @@ class DocumentHelperVariable
             'margin_left' => $settings['margin_left'] ?? 15,
             'margin_right' => $settings['margin_right'] ?? 15,
             'margin_bottom' => $settings['margin_bottom'] ?? 30,
+	        'margin_footer' => $settings['margin_footer'] ?? 9,
             'mirrorMargins' => $settings['mirrorMargins'] ?? 0,
             'fontDir' => $settings['fontDir'] ?? $defaultConfig['fontDir'],
             'fontdata' => $settings['fontdata'] ?? $defaultFontConfig['fontdata'],
